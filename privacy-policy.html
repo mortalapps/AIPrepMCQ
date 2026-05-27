@@ -92,6 +92,14 @@
       border-radius: 4px;
       font-size: 13px;
     }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 0;
+        border-radius: 0;
+        padding: 20px;
+      }
+    }
   </style>
 </head>
 
@@ -107,13 +115,14 @@
 
   <p>
     AI Prep ("the app") is provided by <strong>MortalApps</strong> ("we", "us", "our").
-    The app is designed with a privacy-conscious approach and minimizes collection
-    of user data wherever possible.
+    The app is designed with a privacy-conscious approach and aims to minimize
+    unnecessary collection of user data wherever possible.
   </p>
 
   <p>
     AI Prep is intended for educational and self-learning purposes related to
-    artificial intelligence, machine learning, programming, and related technical subjects.
+    artificial intelligence, machine learning, programming,
+    data science, and related technical subjects.
   </p>
 
   <h2>1. Information Handling Overview</h2>
@@ -121,7 +130,7 @@
   <h3>1.1 Personal Data</h3>
 
   <p>
-    We do not require user accounts and do not collect personal information such as:
+    We do not require user accounts and do not intentionally collect personal information such as:
   </p>
 
   <ul>
@@ -129,7 +138,7 @@
     <li>Email address</li>
     <li>Phone number</li>
     <li>Precise location</li>
-    <li>Quiz answers or written responses</li>
+    <li>Typed quiz answers or free-form educational responses</li>
   </ul>
 
   <h3>1.2 Data Stored on Your Device</h3>
@@ -147,10 +156,11 @@
     <li>Learning progress</li>
     <li>Daily streaks</li>
     <li>Current learning focus</li>
+    <li>Premium entitlement status</li>
   </ul>
 
   <p>
-    This locally stored data remains on your device unless you:
+    This locally stored data generally remains on your device unless you:
   </p>
 
   <ul>
@@ -159,56 +169,68 @@
     <li>Reset your device</li>
   </ul>
 
-  <h3>1.3 Anonymous Analytics</h3>
+  <h3>1.3 Usage Analytics</h3>
 
   <p>
-    With your permission, AI Prep may collect anonymous usage analytics to help
-    us understand how users interact with the app and improve the learning experience.
+    With your permission where required by applicable law,
+    AI Prep may collect analytics and technical diagnostics information
+    to understand app usage,
+    improve educational features,
+    measure engagement,
+    support premium functionality,
+    optimize monetization,
+    and help sustain the app experience.
   </p>
 
   <p>
-    These analytics may include:
+    Analytics events may include:
   </p>
 
   <ul>
     <li>Quiz and test completion activity</li>
     <li>Difficulty and topic engagement</li>
-    <li>Feature usage</li>
     <li>Learning concept reading activity</li>
-    <li>Streak and progression milestones</li>
-    <li>Paywall and purchase events</li>
+    <li>Progression milestones and streaks</li>
+    <li>Premium purchase and paywall interactions</li>
+    <li>Feature usage patterns</li>
     <li>App sharing actions</li>
+    <li>App stability and crash diagnostics</li>
   </ul>
 
   <p>
-    Analytics data is behavioral and aggregated in nature and is not intended
-    to personally identify users.
+    Analytics data is generally behavioral and technical in nature
+    and is not intended to directly identify individual users.
   </p>
 
   <p>
-    We do not use analytics to:
+    We do not intentionally use analytics to:
   </p>
 
   <ul>
-    <li>Track typed answers or free-form input</li>
-    <li>Record question-by-question behavior</li>
-    <li>Build advertising profiles</li>
-    <li>Sell personal data</li>
+    <li>Track typed answers or free-form educational input</li>
+    <li>Record detailed question-by-question behavioral replay</li>
+    <li>Collect sensitive personal information through analytics events</li>
+    <li>Sell personal information to third parties</li>
   </ul>
 
   <p>
-    You may disable analytics collection at any time within the app settings.
+    Analytics collection settings may be configurable within the app,
+    subject to technical and platform limitations.
   </p>
 
-  <h3>1.4 Firebase Analytics</h3>
+  <h3>1.4 Firebase Analytics & Google Services</h3>
 
   <p>
-    AI Prep uses <strong>Firebase Analytics</strong>, a service provided by Google,
-    to collect anonymous app usage and technical diagnostics information.
+    AI Prep uses <strong>Firebase Analytics</strong> and related Google services
+    to collect usage analytics,
+    app diagnostics,
+    engagement metrics,
+    conversion information,
+    and monetization insights.
   </p>
 
   <p>
-    Firebase may automatically collect certain technical information including:
+    Firebase and related Google services may automatically collect technical information including:
   </p>
 
   <ul>
@@ -218,25 +240,61 @@
     <li>Approximate country or region</li>
     <li>Anonymous app instance identifiers</li>
     <li>Crash and performance diagnostics</li>
+    <li>Advertising and conversion-related identifiers where supported</li>
   </ul>
 
   <p>
-    We do not use Firebase Analytics for personalized advertising,
-    remarketing, or advertising audiences.
+    Analytics data may be used to understand which features,
+    topics,
+    engagement patterns,
+    or user segments are associated with:
+  </p>
+
+  <ul>
+    <li>Educational engagement</li>
+    <li>Premium conversion</li>
+    <li>Feature effectiveness</li>
+    <li>Advertising and promotion performance</li>
+  </ul>
+
+  <p>
+    Some analytics information may be used in connection with Google advertising products,
+    including audience measurement,
+    conversion tracking,
+    advertising optimization,
+    remarketing,
+    and improving the relevance or effectiveness of promotions and advertisements.
+  </p>
+
+  <p>
+    We do not intentionally use analytics data to directly identify individual users.
   </p>
 
   <p>
     Learn more:
-    <a href="https://firebase.google.com/support/privacy" target="_blank">
-      Firebase Privacy and Security
-    </a>
   </p>
+
+  <ul>
+    <li>
+      <a href="https://firebase.google.com/support/privacy" target="_blank">
+        Firebase Privacy and Security
+      </a>
+    </li>
+
+    <li>
+      <a href="https://policies.google.com/privacy" target="_blank">
+        Google Privacy Policy
+      </a>
+    </li>
+  </ul>
 
   <h3>1.5 Anonymous Reports</h3>
 
   <p>
-    If you choose to report a question or educational issue, the app may send
-    a report containing:
+    If you choose to report a question,
+    error,
+    or educational issue,
+    the app may transmit:
   </p>
 
   <ul>
@@ -246,40 +304,56 @@
   </ul>
 
   <p>
-    Reports are not linked to your identity and are used solely
-    to improve educational quality and correctness.
+    Reports are used to improve educational quality,
+    correctness,
+    and app reliability.
   </p>
 
   <h3>1.6 AI-Assisted Educational Content</h3>
 
   <p>
-    Certain educational explanations, summaries, examples, code snippets,
-    and learning materials within the app may be generated or assisted
-    using artificial intelligence (AI) systems.
+    Certain educational explanations,
+    summaries,
+    examples,
+    code snippets,
+    and learning materials within the app
+    may be generated or assisted using artificial intelligence (AI) systems.
   </p>
 
   <p>
-    While we strive to review and improve content quality, we do not guarantee
-    that all educational content is fully accurate, complete, current, or error-free.
+    While we strive to review and improve content quality,
+    educational materials may still contain inaccuracies,
+    omissions,
+    ambiguities,
+    simplified explanations,
+    or outdated information.
   </p>
 
   <p>
-    The app is intended for learning and educational support purposes only and
-    should not be relied upon as professional, legal, financial,
-    engineering, or academic advice.
+    The app is intended for learning and educational support purposes only
+    and should not be relied upon as professional,
+    financial,
+    legal,
+    engineering,
+    academic,
+    or career advice.
   </p>
 
   <h2>2. Legal Basis for Processing (GDPR)</h2>
 
   <p>
     Where applicable under GDPR or similar privacy regulations,
-    anonymous analytics and technical diagnostics are processed:
+    analytics,
+    diagnostics,
+    and related processing activities may be carried out:
   </p>
 
   <ul>
     <li>Based on your consent where required</li>
-    <li>Or under our legitimate interest in improving app quality,
-        reliability, and educational effectiveness</li>
+    <li>Under our legitimate interest in improving app quality,
+        educational effectiveness,
+        monetization sustainability,
+        and service reliability</li>
   </ul>
 
   <h2>3. Permissions</h2>
@@ -293,8 +367,11 @@
     <tr>
       <td><code>INTERNET</code></td>
       <td>
-        Used to load educational content, process purchases,
-        submit optional reports, and support anonymous analytics.
+        Used to load educational content,
+        process purchases,
+        submit optional reports,
+        support analytics,
+        and enable app-related online functionality.
       </td>
     </tr>
 
@@ -308,76 +385,92 @@
     <tr>
       <td><code>POST_NOTIFICATIONS</code></td>
       <td>
-        Used for optional reminders, streak notifications,
-        and daily challenge notifications.
+        Used for optional reminders,
+        streak notifications,
+        daily challenge notifications,
+        and app engagement features.
       </td>
     </tr>
   </table>
 
   <h2>4. Third-Party Services</h2>
 
-  <h3>4.1 Firebase Analytics</h3>
+  <h3>4.1 Firebase Analytics & Google Services</h3>
 
   <p>
-    Firebase Analytics is used to understand anonymous app usage,
-    app stability, and feature engagement.
+    AI Prep uses Firebase Analytics and related Google services
+    for analytics,
+    diagnostics,
+    monetization insights,
+    audience measurement,
+    and advertising optimization.
   </p>
 
   <p>
-    Firebase is operated by Google.
+    Firebase and Google services are operated by Google.
   </p>
 
-  <p>
-    <a href="https://firebase.google.com/support/privacy" target="_blank">
-      Firebase Privacy Information
-    </a>
-  </p>
+  <ul>
+    <li>
+      <a href="https://firebase.google.com/support/privacy" target="_blank">
+        Firebase Privacy Information
+      </a>
+    </li>
 
-  <p>
-    <a href="https://policies.google.com/privacy" target="_blank">
-      Google Privacy Policy
-    </a>
-  </p>
+    <li>
+      <a href="https://policies.google.com/privacy" target="_blank">
+        Google Privacy Policy
+      </a>
+    </li>
+  </ul>
 
   <h3>4.2 Google Play Billing</h3>
 
   <p>
-    Purchases are processed securely by Google Play.
-    We do not receive or store payment card information.
+    Purchases are processed securely through Google Play.
+    We do not receive or store payment card information,
+    banking details,
+    or billing credentials.
   </p>
 
   <p>
-    We may receive a purchase token solely for purchase verification
-    and entitlement management.
+    We may receive purchase verification tokens solely for entitlement
+    and premium access verification purposes.
   </p>
 
   <h3>4.3 Report Submission Backend</h3>
 
   <p>
-    Optional educational issue reports are transmitted securely via HTTPS
-    for review and quality improvement purposes.
+    Optional educational issue reports may be transmitted securely via HTTPS
+    for review,
+    quality improvement,
+    and educational corrections.
   </p>
 
   <h2>5. Data Retention</h2>
 
   <p>
-    Most learning data remains locally on your device.
+    Most educational progress data remains locally on your device.
   </p>
 
   <p>
-    Anonymous analytics and diagnostic data may be retained by Firebase
-    according to Google's retention policies.
+    Analytics,
+    diagnostics,
+    advertising,
+    and conversion-related information may be retained by Google and Firebase
+    according to their applicable retention policies.
   </p>
 
   <p>
-    We do not maintain personally identifiable user profiles
-    or cloud-based personal learning accounts.
+    We do not maintain traditional personal user accounts
+    or cloud-based personal educational profiles.
   </p>
 
   <h2>6. User Rights</h2>
 
   <p>
-    Depending on your jurisdiction, you may have rights relating to:
+    Depending on your jurisdiction,
+    you may have rights relating to:
   </p>
 
   <ul>
@@ -385,29 +478,41 @@
     <li>Deletion of data</li>
     <li>Withdrawal of analytics consent</li>
     <li>Restriction of processing</li>
+    <li>Advertising and analytics preferences</li>
   </ul>
 
   <p>
-    Since AI Prep does not maintain user accounts or directly identifiable profiles,
-    many requests may already be satisfied by disabling analytics,
-    clearing app storage, or uninstalling the app.
+    Since AI Prep does not maintain traditional user accounts
+    or directly identifiable personal educational profiles,
+    many requests may already be satisfied by:
   </p>
+
+  <ul>
+    <li>Disabling analytics</li>
+    <li>Resetting advertising identifiers</li>
+    <li>Clearing app storage</li>
+    <li>Uninstalling the app</li>
+  </ul>
 
   <h2>7. Data Security</h2>
 
   <ul>
-    <li>Most data is stored locally on your device.</li>
+    <li>Most educational data is stored locally on your device.</li>
     <li>HTTPS encryption is used where applicable.</li>
     <li>No sensitive payment information is stored by us.</li>
-    <li>Analytics access is restricted internally.</li>
-    <li>Uninstalling the app removes locally stored data.</li>
+    <li>Analytics access is restricted internally where possible.</li>
+    <li>Reasonable efforts are made to protect service integrity and security.</li>
   </ul>
 
   <h2>8. Intellectual Property & Acceptable Use</h2>
 
   <div class="highlight">
-    The unique selection, organization, structure, technical curation,
-    and educational presentation of AI Prep content
+    The unique selection,
+    organization,
+    structure,
+    educational flow,
+    technical curation,
+    and presentation of AI Prep content
     are the proprietary work of <strong>MortalApps</strong>.
   </div>
 
@@ -419,14 +524,24 @@
 
     <li>
       <strong>No Scraping:</strong>
-      Automated extraction, crawling, or bulk reuse of educational content
-      is prohibited.
+      Automated extraction,
+      crawling,
+      or bulk reuse of educational content is prohibited.
     </li>
 
     <li>
       <strong>No Reproduction:</strong>
-      Redistribution, republication, or commercial reuse of app content
-      is not permitted without authorization.
+      Redistribution,
+      republication,
+      or commercial reuse of app content is not permitted without authorization.
+    </li>
+
+    <li>
+      <strong>No AI Training Use:</strong>
+      App content,
+      datasets,
+      explanations,
+      and question banks may not be used to train artificial intelligence or machine learning systems.
     </li>
 
     <li>
@@ -439,37 +554,44 @@
   <h2>9. Educational Disclaimer</h2>
 
   <p>
-    AI Prep is an educational and informational application intended
-    to support technical learning.
+    AI Prep is an educational and informational application
+    intended to support technical learning.
   </p>
 
   <p>
     Educational content may occasionally contain inaccuracies,
-    omissions, simplifications, or AI-generated errors.
+    omissions,
+    simplifications,
+    ambiguities,
+    or AI-generated errors.
   </p>
 
   <p>
     Users should independently verify important academic,
-    research, engineering, or professional information where appropriate.
+    technical,
+    engineering,
+    research,
+    or professional information where appropriate.
   </p>
 
   <h2>10. Governing Law</h2>
 
   <p>
-    This Privacy Policy shall be governed by and interpreted
-    in accordance with the laws of India.
+    This Privacy Policy shall be governed by
+    and interpreted in accordance with the laws of India.
   </p>
 
   <p>
     Any disputes arising in connection with this policy
-    shall be subject to the jurisdiction of the courts
-    located in Bengaluru, Karnataka, India.
+    shall be subject to the jurisdiction of the courts located in Bengaluru, Karnataka, India.
   </p>
 
   <h2>11. Contact</h2>
 
   <p>
-    For support, privacy-related concerns, or inquiries:
+    For support,
+    privacy-related concerns,
+    or inquiries:
   </p>
 
   <p>
